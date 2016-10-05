@@ -1,0 +1,27 @@
+{
+  "name": "check_numbers",
+  "version": "1.0.0",
+  "description": "Check square number",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thangdq/check-numbers.git"
+  },
+  "keywords": [
+    "check_numbers"
+  ],
+  "author": "ThangDQ",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.14",
+    "eslint": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "js-beautify": "^1.6.4",
+    "mocha": "^3.0.2"
+  }
+}
