@@ -1,5 +1,5 @@
 {
-  "name": "check_numbers",
+  "name": "check-square-number",
   "version": "1.0.0",
   "description": "Check square number",
   "main": "src/index.js",
